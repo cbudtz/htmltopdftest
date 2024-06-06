@@ -30,6 +30,7 @@
         saveAs(docx, "test.docx")
 	}
 </script>
+<button onclick={docx}>test</button>
 <div id="print">
     <h1>Blandet tekst på siden</h1>
     tekst der skal løbe ud over kanten zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzzzzzzz
@@ -48,4 +49,3 @@
         <p>Footer tekst</p>
     </div>
 </div>
-    <button onclick={docx}>test</button>
